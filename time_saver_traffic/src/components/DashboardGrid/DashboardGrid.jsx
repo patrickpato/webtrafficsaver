@@ -1,5 +1,13 @@
 import React from "react";
 import {Card, Statistic} from "semantic-ui-react";
+import {
+    AreaChart,
+    CartesianGrid,
+    XAxis,
+    YAxis,
+    Tooltip,
+    Area,
+  } from "recharts";
 import "./DashboardGrid.css";
 
 
@@ -17,7 +25,7 @@ const DASHBOARD_BOXES = [
         
     }, 
     {
-        title:"General rating from users"
+        title:"Total Resources Consumed"
     },
 ];
 
